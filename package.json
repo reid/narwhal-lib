@@ -31,9 +31,6 @@
     },
     "overlay": {
         "npm": {
-            "directories" : {
-                "lib" : "./lib/narwhal"
-            },
             "dependencies" : {
                 "narwhal" : ">= 0.0.2"
             },
