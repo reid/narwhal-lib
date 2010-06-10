@@ -31,11 +31,14 @@
     },
     "overlay": {
         "npm": {
+            "directories" : {
+                "lib" : "./lib/narwhal"
+            },
+            "dependencies" : {
+                "narwhal" : ">= 0.0.2"
+            },
             "engines": {
                 "node": ">=0.1.95"
-            },
-            "dependencies": {
-                "narwhal-node": ">=0.0.2"
             }
         }
     }
